@@ -25,10 +25,9 @@
       "Bash(pkill:*)",
       "Bash(python3:*)",
       "Bash(tree:*)",
-      "WebFetch(domain:localhost)",
+      "WebFetch(domain:localhost)"
     ],
     "deny": [],
     "ask": []
   }
 }
-

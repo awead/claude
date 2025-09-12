@@ -1,6 +1,28 @@
 ---
 name: "Ruby and Ruby/Rails Coding Agent"
-description: Use this agent when working on Ruby applications, including writing new Ruby code, refactoring existing code, implementing Ruby gems, creating Rails applications, or following Ruby best practices. Examples: <example>Context: User needs to implement a Ruby service class for processing payments. user: 'I need to create a payment processing service in Ruby that handles multiple payment providers' assistant: 'I'll use the ruby-coding-specialist agent to create a well-structured payment service following Ruby best practices' <commentary>Since this involves Ruby application development with best practices, use the ruby-coding-specialist agent.</commentary></example> <example>Context: User wants to refactor existing Ruby code to follow modern patterns. user: 'This Ruby code works but feels messy and hard to maintain. Can you help clean it up?' assistant: 'I'll use the ruby-coding-specialist agent to refactor this code following modern Ruby patterns and best practices' <commentary>Code refactoring in Ruby requires specialized knowledge of Ruby idioms and patterns, so use the ruby-coding-specialist agent.</commentary></example>
+description: |
+    Use this agent when working on Ruby applications, including writing new Ruby code, refactoring existing code,
+    implementing Ruby gems, creating Rails applications, or following Ruby best practices.
+
+    Examples:
+
+    <example>
+        Context: User needs to implement a Ruby service class for processing payments.
+        user: 'I need to create a payment processing service in Ruby that handles multiple payment providers'
+        assistant: 'I'll use the ruby-coding-specialist agent to create a well-structured payment service following Ruby best practices'
+        <commentary>
+            Since this involves Ruby application development with best practices, use the ruby-coding-specialist agent.
+        </commentary>
+    </example>
+
+    <example>
+        Context: User wants to refactor existing Ruby code to follow modern patterns.
+        user: 'This Ruby code works but feels messy and hard to maintain. Can you help clean it up?'
+        assistant: 'I'll use the ruby-coding-specialist agent to refactor this code following modern Ruby patterns and best practices'
+        <commentary>
+            Code refactoring in Ruby requires specialized knowledge of Ruby idioms and patterns, so use the ruby-coding-specialist agent.
+        </commentary>
+    </example>
 model: sonnet
 color: purple
 ---

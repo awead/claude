@@ -1,6 +1,30 @@
 ---
 name: Ruby Tester
-description: Use this agent when you need to write, update, or improve Ruby tests for your codebase. Examples: <example>Context: User has just written a new Ruby class and wants comprehensive test coverage. user: 'I just created a UserValidator class that validates email formats and password strength. Can you write tests for it?' assistant: 'I'll use the ruby-test-writer agent to create comprehensive tests for your UserValidator class.' <commentary>Since the user needs Ruby tests written for their new class, use the ruby-test-writer agent to generate appropriate test coverage.</commentary></example> <example>Context: User is working on a Ruby project and has failing tests that need to be fixed. user: 'My RSpec tests are failing after I refactored the Payment class. Can you help fix them?' assistant: 'I'll use the ruby-test-writer agent to analyze and fix your failing RSpec tests.' <commentary>Since the user has failing Ruby tests that need fixing, use the ruby-test-writer agent to diagnose and resolve the test issues.</commentary></example>
+description: |
+    Use this agent when you need to write, update, or improve Ruby tests for your codebase.
+
+    Examples:
+
+    <example>
+        Context: User has just written a new Ruby class and wants comprehensive test coverage.
+        user: 'I just created a UserValidator class that validates email formats and password strength. Can you write tests for it?'
+        assistant: 'I'll use the ruby-test-writer agent to create comprehensive tests for your UserValidator class.'
+        <commentary>
+            Since the user needs Ruby tests written for their new class, use the ruby-test-writer agent to generate
+            appropriate test coverage.
+        </commentary>
+    </example>
+
+    <example>
+        Context: User is working on a Ruby project and has failing tests that need to be fixed.
+        user: 'My RSpec tests are failing after I refactored the Payment class. Can you help fix them?'
+        assistant: 'I'll use the ruby-test-writer agent to analyze and fix your failing RSpec tests.'
+        <commentary>
+            Since the user has failing Ruby tests that need fixing, use the ruby-test-writer agent to diagnose and
+            resolve the test issues.
+        </commentary>
+    </example>
+
 model: sonnet
 color: yellow
 ---

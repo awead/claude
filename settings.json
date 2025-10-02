@@ -1,5 +1,4 @@
 {
-  "model": "sonnet",
   "permissions": {
     "allow": [
       "Bash(NODE_ENV=development tsx server/index.ts)",
@@ -29,5 +28,7 @@
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "model": "sonnet",
+  "alwaysThinkingEnabled": true
 }

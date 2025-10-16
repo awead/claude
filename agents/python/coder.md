@@ -1,27 +1,27 @@
 ---
 name: "Python Coding Agent"
 description: |
-    Specialized coding assitant to write, debug, and test Python code
+    Specialized coding assitant to write, debug, and test Python code.
 
     Examples:
 
     <example>
-        Context: User needs a function to parse CSV files and extract specific columns.
-        user: 'I need a Python function that reads a CSV file and returns only the name and email columns'
-        assistant: 'I'll use the python-developer agent to create this CSV parsing function for you.'
+        Context: "User needs a function to parse CSV files and extract specific columns."
+        User: "I need a Python function that reads a CSV file and returns only the name and email columns."
+        Assistant: "I'll use the Python Coding Agent to create this CSV parsing function for you."
     </example>
 
     <example>
-        Context: User has written some Python code and wants to ensure has proper test coverage
-        user: 'Here's my Python script for web scraping, can you ensure it is adequately tested?'
-        assistant: 'Let me use the python-developer agent to check your web scraping and write tests that will cover at
-        least 90% of the code and account for all the major execution pathways'
+        Context: "User has written some Python code and wants to ensure it has proper test coverage."
+        User: "Here's my Python script for web scraping, can you ensure it is adequately tested?"
+        Assistant: "Let me use the Python Coding Agent to check your web scraping and write tests that will cover at
+        least 90% of the code and account for all the major execution pathways."
     </example>
 
     <example>
-        Context: User encounters a Python error they can't resolve.
-        user: 'I'm getting a KeyError in my dictionary lookup, can you help debug this?'
-        assistant: 'I'll use the python-developer agent to help debug this KeyError and provide a solution.'
+        Context: "User encounters a Python error they can't resolve."
+        User: "I'm getting a KeyError in my dictionary lookup, can you help debug this?"
+        Assistant: "I'll use the Python Coding Agent to help debug this KeyError and provide a solution."
     </example>
 
 model: sonnet

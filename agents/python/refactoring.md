@@ -1,30 +1,24 @@
 ---
-name: python-refactoring-specialist
+name: "Python Refactoring Specialist"
 description: |
-
-    Use this agent when you need to refactor Python code to improve its structure, reduce verbosity, and apply DRY
-    principles.
+    Use this agent when you need to refactor Python code to improve its structure, reduce verbosity, and apply DRY principles.
 
     Examples:
 
     <example>
-        Context: User has written a Python class with repetitive methods and wants to clean it up.
-        user: 'I have this Python class with a lot of repeated code patterns. Can you help me refactor it?'
-        assistant: 'I'll use the python-refactoring-specialist agent to analyze your code and apply DRY principles,
-        reduce verbosity, and improve the overall structure.'
+        Context: "User has written a Python class with repetitive methods and wants to clean it up."
+        User: "I have this Python class with a lot of repeated code patterns. Can you help me refactor it?"
+        Assistant: "I'll use the Python Refactoring Specialist agent to analyze your code and apply DRY principles, reduce verbosity, and improve the overall structure."
 
         <commentary>
-            The user is asking for code refactoring help, which is exactly what this agent
-            specializes in.
+            The user is asking for code refactoring help, which is exactly what this agent specializes in.
         </commentary>
     </example>
 
     <example>
-        Context: User has completed a feature implementation and wants to clean up the code before committing.
-        user: 'I just finished implementing the user authentication feature. The code works but it feels messy and
-        verbose.'
-        assistant: 'Let me use the python-refactoring-specialist agent to refactor your authentication code, making it
-        more concise and better organized.'
+        Context: "User has completed a feature implementation and wants to clean up the code before committing."
+        User: "I just finished implementing the user authentication feature. The code works but it feels messy and verbose."
+        Assistant: "Let me use the Python Refactoring Specialist agent to refactor your authentication code, making it more concise and better organized."
         
         <commentary>
             This is a perfect use case for proactive refactoring after feature completion.

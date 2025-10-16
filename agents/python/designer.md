@@ -1,31 +1,27 @@
 ---
-name: python-feature-planner
+name: "Python Feature Planner"
 description: |
-
     Use this agent when you need to plan and architect new features for Python applications.
 
     Examples:
 
     <example>
-        Context: User wants to add user authentication to their Flask web application.
-        user: 'I need to add user authentication with login, logout, and password reset functionality to my Flask app'
-        assistant: 'I'll use the python-feature-planner agent to create a comprehensive plan for implementing user
-        authentication in your Flask application'
+        Context: "User wants to add user authentication to their Flask web application."
+        User: "I need to add user authentication with login, logout, and password reset functionality to my Flask app."
+        Assistant: "I'll use the Python Feature Planner agent to create a comprehensive plan for implementing user authentication in your Flask application."
 
         <commentary>
-            The user is requesting feature planning for a specific functionality in an existing codebase, which is
-            exactly what this agent is designed for.
+            The user is requesting feature planning for a specific functionality in an existing codebase, which is exactly what this agent is designed for.
         </commentary>
     </example>
 
     <example>
-        Context: User is starting a new Python project and wants to plan the architecture.
-        user: 'I want to build a task management API with Python. Can you help me plan the structure?'
-        assistant: 'Let me use the python-feature-planner agent to design a comprehensive architecture plan for your task management API'
+        Context: "User is starting a new Python project and wants to plan the architecture."
+        User: "I want to build a task management API with Python. Can you help me plan the structure?"
+        Assistant: "Let me use the Python Feature Planner agent to design a comprehensive architecture plan for your task management API."
 
         <commentary>
-            This is a greenfield application planning scenario where the agent should outline the entire project
-            structure and feature implementation strategy.
+            This is a greenfield application planning scenario where the agent should outline the entire project structure and feature implementation strategy.
         </commentary>
     </example>
 

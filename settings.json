@@ -5,6 +5,7 @@
       "Bash(cat:*)",
       "Bash(chmod:*)",
       "Bash(curl:*)",
+      "Bash(docker build:*)",
       "Bash(find:*)",
       "Bash(gh api:*)",
       "Bash(gh auth:*)",
@@ -27,7 +28,5 @@
     ],
     "deny": [],
     "ask": []
-  },
-  "model": "sonnet",
-  "alwaysThinkingEnabled": true
+  }
 }
